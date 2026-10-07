@@ -6,17 +6,11 @@
     "configurations": [
         {
             "type": "scilab",
-            "name": "Launch a new Scilab process",
             "request": "launch",
+            "name": "Launch Scilab",
             "file": "${file}",
-            "workingDirectory": "${workspaceFolder}"
-        },
-        {
-            "type": "scilab",
-            "request": "launch",
-            "name": "launch Scilab",
-            "file": "${file}",
-            "workingDirectory": "${workspaceFolder}"
+            "workingDirectory": "${workspaceFolder}",
+            "SCI": "/usr"
         }
     ]
 }
