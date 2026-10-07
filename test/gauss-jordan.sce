@@ -40,3 +40,5 @@ disp(Ab)
 
 disp("Solução do Sistema")
 disp(x)
+
+exit()
